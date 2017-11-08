@@ -5,7 +5,7 @@ const navData = [
     {'key':'home',
     'name':'Home',
     'url':'#home',
-    'data': 'Welcome to my website.  My name is Sterling and I am a JavaScript developer from Portland Oregon.  I created this React application as a learning excercise.  Each section is a separate component.'
+    'data': 'Welcome to my website.  My name is Sterling and I am a JavaScript developer from Portland Oregon.  I created this React application as a learning excercise.  Each section is a separate component.  This site is currently under construction, but you will get cooler as time goes on.'
   },
   {'key':'about',
   'name':'About Me',
