@@ -1,0 +1,100 @@
+body {
+  background-color: #222;
+  font: 16px/1.2 "Lucida Console";
+}
+.App {
+  text-align: center;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  height: 97vh;
+}
+.App-header {
+  background-color: #222;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  flex: 2;
+  align-self: flex-start
+}
+.App-body {
+  background-color: #888;
+  width: 100%;
+  flex: 10;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-footer {
+  background: #222;
+  width: 100%;
+  font-size: .6em;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+.lft {
+  order: 1;
+  width: 40%;
+}
+.cntr {
+  order: 2;
+  width: 50%;
+}
+.rght {
+  order: 3;
+  width: 10%;
+}
+
+.lft-header, .rght-header {
+  background-color: #222;
+  overflow: hidden;
+  height: 5vh;
+}
+
+.topnav {
+  background-color: #222;
+  overflow: hidden;
+  height: 5vh;
+  padding-left: 6vw;
+}
+.navButton {
+  float: left;
+  display: block;
+  color: white;
+  background-color: #222;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  padding: .4em .8em .4em .8em;
+  margin: .4em;
+  text-decoration: none;
+  font: 8px/1.2 "lucida console";
+  transition: background-color .2s;
+}
+.navButton:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.textContent {
+  padding: 15px;
+  font-size: .8em;
+  text-align: left;
+  margin-left: 4vw;
+}
